@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'MYYeongnamnu';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/MYYeongnamnu.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTLaundryGothicB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+
+
+
+    margin-top: 50px;
+    display: flex;
+
+    justify-content: center;
+}
+
+#main{
+    display: flex;
+
+    flex-direction: column;
+    
+    background-color: #dddf00;
+    align-items: center;
+
+    width: 550px;
+    height: 600px;
+
+    border-radius: 40px 0;
+}
+
+#top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+
+    width: 100%;
+    height: 200px;
+    margin-bottom: 70px;
+
+    
+
+    border-radius: 60% 0;
+}
+
+#under{
+
+    margin-bottom: 20px;
+
+}
+
+#top > span{
+    font-size: 70px;
+    font-family: 'MYYeongnamnu';
+}
+
+#top > i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+#inner{
+    display: flex;
+
+    padding: 20px;
+
+    flex-direction: column;
+    background-color: white;
+
+    border-radius: 80px 0;
+}
+
+#tool{
+    display: flex;
+}
+
+#inner .btn{
+    margin: 10px;
+
+    font-family: 'TTLaundryGothicB';
+}
+
+#same-btn{
+    height: 20px;
+    margin-left: 20px;
+}
+
+#form{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#signup-btn{
+
+    font-size: 15px;
+
+    margin-top: 20px;
+    width : 100px;
+    height: 60px;
+
+    background-color: #ccff33;
+    border: none;
+
+    border-radius: 30px 0;
+    transition-duration: 0.5s;
+}
+
+#signup-btn:hover{
+    background-color: #70e000;
+
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#underline{
+    display: flex;
+}
+
+#back-btn{
+    font-size: 40px;
+    color: yellow;
+
+    position: relative;
+
+    width: 500px;
+    height: 0;
+    transition-duration: 0.5s;
+}
+
+#back-btn:hover{
+
+    cursor: pointer;
+    color: gray;
+    
+    transition-duration: 0.5s;
+}
+
+.pass-not-same{
+	color : red;
+}
+.pass-same{
+	color : green;
+}
+
+
+#pwMessage{
+
+	
+
+	width: 70px;
+
+	text-decoration: center;
+	padding-left: 20px;
+
+	position: relative;
+	margin-top: 125px;
+
+	opacity: 0;
+
+}
+
+
+

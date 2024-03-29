@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	
+	<entry key="selectAll">
+		SELECT SONG_NO, SONG_TITLE, SONG_SINGER, SONG_LYRICS, SONG_LIKE, SONG_GENRE
+		FROM "MUSIC_BOARD"
+		ORDER BY 1
+	</entry>
+	
+	<entry key="selectOne">
+		SELECT SONG_TITLE, SONG_SINGER, SONG_LYRICS, SONG_LIKE, SONG_GENRE
+		FROM "MUSIC_BOARD"
+		WHERE SONG_NO = ?
+	</entry>
+
+	<entry key="sameSingerSongs">
+		SELECT SONG_NO, SONG_TITLE, SONG_LYRICS, SONG_LIKE, SONG_GENRE
+		FROM MUSIC_BOARD
+		WHERE SONG_SINGER = ?
+		ORDER BY 1
+	</entry>
+
+	<entry key="update">
+		UPDATE "MUSIC_BOARD" SET
+		SONG_TITLE = ?,
+		SONG_SINGER = ?,
+		SONG_LIKE = ?
+		WHERE SONG_NO = ?
+		
+		
+	</entry>
+	
+	
+	<entry key="selectTitle">
+		SELECT SONG_NO, SONG_TITLE, SONG_SINGER, SONG_LYRICS, SONG_LIKE, SONG_GENRE
+		FROM MUSIC_BOARD
+		WHERE SONG_TITLE LIKE '%' || ? || '%'
+	</entry>
+	
+	<entry key="selectSinger">
+		SELECT SONG_NO, SONG_TITLE, SONG_SINGER, SONG_LYRICS, SONG_LIKE, SONG_GENRE
+		FROM MUSIC_BOARD
+		WHERE SONG_SINGER LIKE '%' || ? || '%'
+	</entry>
+	
+	
+</properties>

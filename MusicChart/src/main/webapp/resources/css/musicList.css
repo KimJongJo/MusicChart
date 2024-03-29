@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color : black;
+    
+}
+
+@font-face {
+    font-family: 'TTLaundryGothicB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+body{
+
+    display: flex;
+
+    justify-content: center;
+}
+
+main{
+
+    margin-top: 20px;
+    display: flex;
+
+    flex-direction: column;
+
+    
+
+    align-items: center;
+    
+    width: 1200px;
+}
+#top{
+    display: flex;
+    width: 100%;
+
+	margin-bottom: 30px;
+	justify-content: center;
+}
+
+#back{
+    position: relative;
+    width: 200px;
+}
+
+#menu-btn{
+    font-size: 40px;
+
+    text-align: center;
+    position: relative;
+    top: 25%;
+    
+    color: black;
+    transition-duration: 0.2s;
+}
+
+#menu-btn:hover{
+    color: lightgray;
+    transition-duration: 0.2s;
+}
+
+
+
+#music-list{
+
+    padding: 15px;
+
+    width: 400px;
+
+    background-color: #dddf00;
+    font-family: 'TTLaundryGothicB';
+    font-size: 40px;
+
+    border-radius: 40px 0;
+    text-align: center;
+
+}
+
+a{
+    
+    text-decoration: none;
+    padding:3px;
+}
+
+.btn{
+	transition-duration: 0.3s;
+}
+
+.btn:hover{
+	    background-color: lightgray;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+}
+
+
+
+table{
+
+    border: 3px solid black;
+
+}
+
+th{
+	background-color: #38b000;
+	
+	font-size : 30px;
+}
+
+td{
+	text-align : center;
+	
+	font-size : 20px;
+	
+	font-family: 'TTLaundryGothicB';
+}
+
+#btn-size{
+	
+	font-size : 40px;
+	
+}
+
+#like-btn-size{
+	font-size:40px
+}
+
+#search{
+    display: flex;
+    
+    flex-direction: column;
+}
+
+
+
+#singer-input, #title-input{
+    width: 200px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: 'TTLaundryGothicB';
+}
+
+#title-btn{
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #dddf00;
+    transition-duration: 0.3s;
+    font-weight: bold;
+    font-family: 'TTLaundryGothicB';
+}
+
+#input-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #dddf00;
+    transition-duration: 0.3s;
+    font-weight: bold;
+    font-family: 'TTLaundryGothicB';
+}
+
+#title-btn:hover{
+    background-color: #38b000;
+    transition-duration: 0.3s;
+}
+
+#input-btn:hover{
+    background-color: #38b000;
+    transition-duration: 0.3s;
+}
