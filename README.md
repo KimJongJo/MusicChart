@@ -3,6 +3,9 @@
 # 뮤직 차트
 html, css, javascript, java, servlet, jsp, oracle(DB) 를 사용해서 간단한 CRUD 기능이 들어가 있는 뮤직 차트를 만들었습니다.
 
+인원 : 1명 <br>
+프로젝트 기간 : 1일
+
 C - 회원가입 <br>
 R - 노래 검색 <br>
 U - 노래 수정 <br>
